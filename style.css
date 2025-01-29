@@ -160,6 +160,11 @@ body {
     font-size: 18px;
 }
 
+.inputs #email:focus::placeholder{
+    transform: translateY(-18px);
+    font-size: 15px;
+}
+
 .inputs .btn button {
     background-color: red;
     color: white;
@@ -303,6 +308,11 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 18px;
+}
+
+.contact .input #email:focus::placeholder{
+    transform: translateY(-18px);
+    font-size: 15px;
 }
 
 .contact .input .btn button {
