@@ -51,8 +51,8 @@ body {
     color: rgb(236, 236, 227);
 }
 
-.navbar ul li button {
-    padding: 10px;
+.navbar ul li a {
+    padding: 10px 20px;
     cursor: pointer;
     border: none;
     font-size: 16px;
@@ -62,9 +62,10 @@ body {
     border-radius: 5px;
     font-weight: bold;
     margin-left: 10px;
+    text-decoration: none;
 }
 
-.navbar ul li button:hover {
+.navbar ul li a:hover {
     background-color: rgb(186, 10, 10);
 }
 
